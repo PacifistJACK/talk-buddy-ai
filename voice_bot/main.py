@@ -49,7 +49,7 @@ def run():
 
     # 4. Print Startup Banner
     print("\n" + "=" * 60)
-    print("🎙️  Real-Time Voice-to-Voice Agent (Gemini 3.6 + Azure Speech)")
+    print("🎙️  Talk Buddy AI (Gemini 3.6 + Azure Speech)")
     print("=" * 60)
     print("✓ LLM Model         : gemini-3.6-flash (Google API Key verified)")
     if voice.mode == "AZURE_SDK":

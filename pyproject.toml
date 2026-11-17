@@ -1,7 +1,7 @@
 [project]
-name = "building-interactive-agent-with-langchain"
+name = "talk-buddy-ai"
 version = "0.1.0"
-description = "Interactive Voice Agent using LangChain and Microsoft Azure / Edge Neural Speech"
+description = "Talk Buddy AI — Real-Time Voice-to-Voice Conversational Agent with LangChain and Azure Speech"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

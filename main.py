@@ -1,6 +1,6 @@
 """
-Interactive Voice-to-Voice Agent
---------------------------------
+Talk Buddy AI
+-------------
 Main application entry point.
 """
 
