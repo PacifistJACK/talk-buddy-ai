@@ -4,6 +4,10 @@ An ultra-low latency real-time voice-to-voice conversational assistant powered b
 
 Talk Buddy AI listens through your microphone, reasons with tool-calling intelligence, and speaks back naturally in real time with human-like prosody and emotional expression.
 
+> [!NOTE]
+> **Project Status: In Active Progress 🚧**
+> This project is continuously evolving. Core voice-to-voice conversation, tool calling, and streaming pipelines are functional, with more capabilities, integrations, and optimizations actively being added.
+
 ---
 
 ## Key Features
@@ -103,3 +107,14 @@ You can switch the default voice in [`voice_bot/config.py`](voice_bot/config.py)
 - `en-US-JennyNeural` (Jenny Neural — supports styles: `whisper`, `chat`, `cheerful`, `friendly`)
 - `en-US-GuyNeural` (Guy Neural — natural conversational male)
 - `en-IN-NeerjaNeural` / `en-IN-PrabhatNeural` (Indian English voices)
+
+---
+
+## 🚧 Roadmap & Upcoming Functionality
+
+Talk Buddy AI is actively being developed. Upcoming enhancements in the pipeline:
+- [ ] **Wake-Word Detection**: Hands-free always-on voice trigger (e.g., "Hey Buddy").
+- [ ] **Persistent Memory**: Retaining multi-turn conversation context across sessions.
+- [ ] **Interactive Web UI**: Modern browser interface with live audio waveform visualizers.
+- [ ] **Dynamic Style Switching**: Automatically switching voice emotion/style in real time based on the topic.
+- [ ] **Extended Tool Suite**: Web search, calendar management, and desktop system tasks.
