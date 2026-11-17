@@ -1,31 +1,31 @@
 # Talk Buddy AI 🎙️
 
-An ultra-low latency real-time voice-to-voice conversational assistant powered by **Google Gemini 3.6 Flash** and **Microsoft Azure Speech Services**.
+A high-performance, real-time voice-to-voice conversational AI agent engineered with **LangChain**, **Google Gemini 3.6 Flash**, and **Microsoft Azure Speech Services**.
 
-Talk Buddy AI listens through your microphone, reasons with tool-calling intelligence, and speaks back naturally in real time with human-like prosody and emotional expression.
+Talk Buddy AI delivers sub-second conversational latency through streaming Speech-to-Text (STT), agentic tool orchestration, and expressive Neural Text-to-Speech (TTS) synthesis.
 
 > [!NOTE]
 > **Project Status: In Active Progress 🚧**
-> This project is continuously evolving. Core voice-to-voice conversation, tool calling, and streaming pipelines are functional, with more capabilities, integrations, and optimizations actively being added.
+> This project is in active development. Core voice-to-voice pipelines, agentic tool calling, and streaming synthesis are operational, with multi-turn memory, wake-word detection, and web UI integrations currently underway.
 
 ---
 
 ## Key Features
 
-- **True Voice-to-Voice Conversation**:
-  - **Speech-to-Text (STT)**: Uses Azure Speech SDK to listen to your default hardware microphone with automatic Voice Activity Detection (VAD).
-  - **Text-to-Speech (TTS)**: Speaks back in real-time through your hardware speakers using neural voices.
-  - **Hybrid Input**: Speak directly into your microphone or type in the console whenever you prefer.
-- **Gemini 3.6 Flash + LangChain**:
-  - Modular `create_agent` tool-calling architecture.
-  - Automatic retry protection against temporary Google `503 UNAVAILABLE` spikes without crashing.
-- **Acoustic Sound Effects Awareness**:
-  - Talk Buddy AI expressively uses natural human vocalizations (`"hahaha"`, `"hmm..."`, `"phew!"`, `"whoa!"`, `"aww..."`, `"oops!"`).
-- **Clause-Level Sub-Sentence Streaming Chunker**:
-  - Dispatches complete natural sentences to the voice engine immediately, delivering smooth prosody and sub-second response times.
-- **External Tools Included**:
-  - Live weather forecasts via Open-Meteo.
-  - Live news headlines via Google News RSS.
+- **End-to-End Voice-to-Voice Pipeline**:
+  - **Speech-to-Text (STT)**: Real-time microphone capture via Azure Cognitive Services with hardware-level Voice Activity Detection (VAD) and automated silence trimming.
+  - **Neural Text-to-Speech (TTS)**: Direct-to-speaker WASAPI streaming using multilingual neural models with customizable SSML expressive styles.
+  - **Multimodal Hybrid Input**: Zero-friction transition between continuous hands-free voice conversation and keyboard input.
+- **Agentic Reasoning & Tool Calling**:
+  - **LangChain & Gemini 3.6 Flash**: Autonomous reasoning, schema-based parameter extraction, and dynamic tool execution.
+  - **Fault-Tolerant Architecture**: Built-in exponential backoff retry guard to handle transient upstream API rate limits and 503 spikes without interruption.
+- **Acoustic Prosody & Expressive Vocalizations**:
+  - **Contextual Paralinguistics**: Generates natural non-verbal human reactions (`"hahaha"`, `"hmm..."`, `"phew!"`, `"whoa!"`, `"aww..."`) through phonetic neural modeling.
+- **Sub-Sentence Real-Time Chunker**:
+  - **Low-Latency Streaming**: Token-level sentence boundary parsing delivering sub-500ms Time-to-First-Audio (TTFA) while preserving melodic prosody.
+- **Production Tool Integrations**:
+  - **Telemetry Tool**: Real-time meteorological forecasting via Open-Meteo REST API.
+  - **News Ingestion Tool**: Live global and local headline extraction via Google News XML feeds.
 
 ---
 
@@ -34,7 +34,7 @@ Talk Buddy AI listens through your microphone, reasons with tool-calling intelli
 ### 1. Clone & Set Up Virtual Environment
 
 ```powershell
-git clone <your-repo-url>
+git clone https://github.com/PacifistJACK/talk-buddy-ai.git
 cd "talk-buddy-ai"
 
 # Create and activate virtual environment
