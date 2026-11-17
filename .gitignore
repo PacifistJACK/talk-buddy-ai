@@ -1,0 +1,37 @@
+# Environment variables & secrets (CRITICAL)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# Temporary audio files
+*.mp3
+*.wav
+
+# Old reference / prototype scripts
+weather_bot.py
+voice_agent.py
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,17 @@
+[project]
+name = "building-interactive-agent-with-langchain"
+version = "0.1.0"
+description = "Interactive Voice Agent using LangChain and Microsoft Azure / Edge Neural Speech"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.4.0",
+    "langchain-google-genai>=4.4.0",
+    "google-genai>=2.34.0",
+    "azure-cognitiveservices-speech>=1.53.0",
+    "edge-tts>=7.3.0",
+    "pygame>=2.6.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.32.0",
+    "gradio-client>=2.7.0",
+]
