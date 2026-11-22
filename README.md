@@ -118,3 +118,9 @@ Talk Buddy AI is actively being developed. Upcoming enhancements in the pipeline
 - [ ] **Interactive Web UI**: Modern browser interface with live audio waveform visualizers.
 - [ ] **Dynamic Style Switching**: Automatically switching voice emotion/style in real time based on the topic.
 - [ ] **Extended Tool Suite**: Web search, calendar management, and desktop system tasks.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
